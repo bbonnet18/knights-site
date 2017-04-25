@@ -1,0 +1,52 @@
+<form [formGroup]="contactForm" class="form-horizontal" novalidate>
+    <div class="form-group col-sm-6 col-xs-12 ">
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon">First:</span>
+        <input type="text" class="form-control" formControlName="first">
+      </div>
+      </div>
+    <div class="form-group col-sm-6 col-xs-12 ">
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon">Last:</span>
+        <input class="form-control" formControlName="last" type="text">
+      </div>
+    </div>
+    <div class="form-group col-sm-3 col-xs-3">
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon">Age:</span>
+        <input class="form-control" formControlName="age" type="text">
+      </div>
+    </div>
+    <div class="form-group col-sm-9 col-xs-9">
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon">Email:</span>
+        <input class="form-control" formControlName="email" type="email">
+      </div>
+    </div>
+	<div class="form-group col-sm-12 col-xs-12 right-textarea">
+	  <textarea class="form-control" formControlName="experience" name="experience" id="experience" placeholder="please provide a brief summary of your baseball experience" aria-labeledby="experience_label">Please summarize your baseball experience.</textarea>
+    </div>
+	<div class="form-group col-sm-6 col-xs-12">
+      <div class="input-group col-sm-12 col-xs-12">
+        <label for="primary" id="primary_label" class="center-block" >Primary Position:
+			<select id="primary_position" class="form-control" formControlName="primary">
+				<option *ngFor="let pos of positions" [value]="pos">{{pos}}</option>
+			</select>
+		</label>
+      </div>
+    </div>
+	<div class="form-group col-sm-6 col-xs-12">
+      <div class="input-group col-sm-12 col-xs-12">
+        <label for="primary" id="primary_label" class="center-block" >Secondary Position:
+			<select id="primary_position" class="form-control" formControlName="secondary">
+				<option *ngFor="let pos of positions" [value]="pos">{{pos}}</option>
+			</select>
+		</label>
+      </div>
+    </div>
+      
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+<p>Form Value: {{contactForm.value | json}}</p>
+<p>Form Status: {{contactForm.status | json}} </p>
+<router-outlet></router-outlet>
