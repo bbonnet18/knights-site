@@ -9,8 +9,8 @@ import {Field, Address} from '../model';
 
 export class LocationComponent implements OnInit, OnChanges{
 	fieldName:Field;
-	constructor(){//constructor(field?:Field, address?:Address)
-		let fieldAddress:Address = new Address('the field loccation',22204); 
+	constructor(){
+		let fieldAddress:Address = new Address('Chantilly HS','Chantilly','VA',20151); 
 		this.fieldName = new Field("bens field", fieldAddress);
 	}
 	
