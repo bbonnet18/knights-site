@@ -1,0 +1,122 @@
+field model = {
+	name:"",
+	address:"",
+	city:"",
+	state:"",
+	zip:"",
+	link:"",
+}
+
+
+
+Chantilly HS
+4201 Stringfellow Road
+Chantilly VA 20151 (Google Map)
+Field Rules / Maintenance / Lights
+
+Edison HS
+5801 Franconia Rd
+Alexandria VA 22310 (Google Map)
+Field Rules / Maintenance / Lights
+
+Great Falls Nike Park Field #5
+1089 Utterback Store Rd
+Great Falls VA 22066 (Google Map)
+Field Rules / Maintenance / Lights
+
+Hayfield Secondary School
+7630 Telegraph Rd
+Alexandria VA 22315 (Google Map)
+Field Rules / Maintenance / Lights
+
+Herndon HS
+700 Bennett St
+Herndon, VA 20170 (Google Map)
+Field Rules / Maintenance / Lights
+
+JEB Stuart HS
+3301 Peace Valley Ln
+Falls Church VA 22044 (Google Map)
+Field Rules / Maintenance / Lights
+
+Lake Braddock Secondary School
+9200 Burke Lake Rd
+Burke, VA 22015 (Google Map)
+Field Rules / Maintenance / Lights
+
+Lee HS
+6540 Franconia Road
+Springfield VA 22150 (Google Map)
+Field Rules / Maintenance / Lights
+
+Madison HS
+2500 James Madison Drive
+Vienna VA 22181  (Google Map)
+Field Rules / Maintenance / Lights
+
+McLean HS
+1633 Davidson Road
+McLean VA 22101  (Google Map)
+Field Rules / Maintenance / Lights
+
+Mt Vernon HS
+8515 Old Mt Vernon Rd
+Alexandria VA 22309 (Google Map)
+Field Rules / Maintenance / Lights
+
+Oakton HS
+2900 Sutton Rd
+Vienna VA 22181 (Google Map)
+Field Rules / Maintenance / Lights
+
+Olney Manor Regional Park #1
+16601 Georgia Avenue
+Olney MD 20832 (Google Map)
+Field Condition #: 301-765-8787
+
+Povich Field at Cabin John Regional Park (Field #1)
+10610 Westlake Drive
+Bethesda MD 20817 (Google Map)
+Field Rules / Maintenance / Lights
+Field Condition #: 301-765-8787
+
+Robinson Secondary School
+5035 Sideburn Rd
+Fairfax VA 22032 (Google Map) 
+Field Rules / Maintenance / Lights
+
+South Lakes HS
+11400 South Lakes Dr.
+Reston VA 20191 (Google Map)
+Field Rules / Maintenance / Lights
+
+South Run Rec Center Field #1
+7550 Reservation Drive
+Springfield VA 22153 (Google Map)
+Field Rules / Maintenance / Lights
+
+Sully Highlands Park #5
+13808 Wall Road
+Herndon VA 20171 (Google Map)
+Field Rules / Maintenance / Lights
+
+Waters Field
+300 Cherry St
+Vienna VA 22180 (Google Map)
+Field Rules / Maintenance / Lights
+
+WT Woodson HS
+9525 Main Street
+Fairfax VA 22031 (Google Map)
+Field Rules / Maintenance / Lights
+
+WRP - Wheaton Regional Park #1
+11715 Orebaugh Avenue
+Wheaton MD 20902 (Google Map)
+Field Condition #: 301-765-8787
+
+Yorktown HS (Greenbriar Park #3)
+5200 Yorktown Blvd
+Arlington, VA 22207 (Google Map)
+Field Rules / Maintenance / Lights
+Field Condition #: 703-228-4715
