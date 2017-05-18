@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { LocationComponent } from '../location/location.component';
 import {FieldService} from '../field.service';
-import {Field} from '../model';
+import {GameService} from '../game.service';
+import {Field, Game} from '../model';
 
 @Component({
   selector: 'app-schedule',
@@ -9,18 +10,27 @@ import {Field} from '../model';
   styleUrls: ['./schedule.component.css']
 })
 export class ScheduleComponent implements OnInit {
-	fieldLoc:string
-	fieldServ:FieldService
-	fields:Field[]
-  constructor(fs:FieldService) {
+	fieldLoc:string;
+	fieldServ:FieldService;
+	gameServ:GameService;
+	fields:Field[];
+  constructor(fs:FieldService, gs:GameService) {
 	this.fieldServ = fs; 
+	this.gameServ = gs;
   }
 
   ngOnInit() {
-	  this.fieldLoc = "my location";
+		this.fieldLoc = "my location";
 		this.fieldServ.getFields().subscribe(v => {
-	  this.fields = v; 
-	  console.log(this.fields.length, ':', v.length)});
-  }
+			// set the observable to the fields variable 
+			this.fields = v; 
+	  
+		})
+		
+		this.gameServ.getGames().subscribe(g => {
+			console.log(g);
+		});
+  };
+  
 
 }

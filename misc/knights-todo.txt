@@ -1,0 +1,25 @@
+hosting package - dcKn1ght$
+
+control panel: dcknights
+
+secure ftp: u89239119
+password: dcKn1ght$
+
+
+
+ks2 to do:
+
+- get hosting
+- integrate stats
+- pull in values for fields and locations
+- show main image on hero
+- create 'next up' to show the next game
+
+
+
+
+1	4/2/17	Sun	11:00 AM	Oakton HS	DC Knights	2	703 Hooters	3	Knights W 3-2																
+2	4/8/17	Sat	8:00 PM	Madison HS	Oakton Orioles	8	DC Knights	7	Os W 8-7																
+4	4/29/17	Sat	8:00 PM	Madison HS	DC Blue Rocks		DC Knights	
+5	5/7/17	Sun	11:00 AM	Oakton HS	DC Knights		Arlington Shockers	
+6	5/21/17	Sun	3:00 PM	Madison HS	DC Knights		Washington Patriots																																																				

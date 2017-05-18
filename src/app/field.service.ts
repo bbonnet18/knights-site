@@ -17,14 +17,8 @@ export class FieldService{
 		this.allFields = this.fa.getFieldsList();
 	}
 	getFields():Observable<Field[]>{// return an observable of a bunch of fields
-		let fieldAddress:Address = new Address('4201 Stringfellow Road','Chantilly','VA',20151); 
-		let fieldOne:Field = new Field("Chantilly HS", fieldAddress);
-		let fieldAddress2:Address = new Address('5801 Franconia Rd','Alexandria', 'VA',22310)
-		let fieldTwo:Field = new Field('Edison HS',fieldAddress2);
-		let fields:Field[] = [fieldOne, fieldTwo];
+
 		
-		console.log('total fields - ',this.allFields.length);
-		
-		return Observable.of(fields).delay(1000).do(v => console.log('did the observable'));
+		return Observable.of(this.allFields).delay(1000).do(v => console.log('did the observable'));
 	}
 }

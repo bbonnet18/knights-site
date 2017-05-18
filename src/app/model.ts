@@ -20,18 +20,21 @@ export class Address{
 	}
 }
 
-export class TestClass{
 
-	age:number;
-	friends:Array<string>;
+export class Game{
 	
-	constructor(age:number, friends:Array<string>){
-		
-
-		this.age = age;
-		this.friends = friends;
+	gameDate:Date;
+	opponent:string;
+	field:Field;
+	
+	constructor(opponent:string, gameDate:Date, field:Field){
+		this.gameDate = gameDate;
+		this.opponent = opponent;
+		this.field = field; 
 	}
+	
 }
+
 
 export class FieldAddresses{
 		
@@ -61,4 +64,5 @@ export class FieldAddresses{
 
 	
 }
-	
+
+/* format for date with moment -  moment("2017-05-21 15:00").format("dddd, MMMM Do YYYY, h:mm a");*/

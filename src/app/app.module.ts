@@ -16,6 +16,7 @@ import { RosterModule } from './roster/roster.module'; // importing this gives u
 /* import { playerRouting } from './roster/roster.module'; */
 import { LocationComponent } from './location/location.component';
 import { FieldService } from './field.service';
+import { GameService } from './game.service';
 
 
 @NgModule({
@@ -38,7 +39,7 @@ import { FieldService } from './field.service';
 /* 	playerRouting, */
 	routing,
   ],
-  providers: [{provide:LocationStrategy, useClass:HashLocationStrategy},FieldService],
+  providers: [{provide:LocationStrategy, useClass:HashLocationStrategy},FieldService, GameService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
