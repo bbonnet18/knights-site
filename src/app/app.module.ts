@@ -17,10 +17,10 @@ import { RosterModule } from './roster/roster.module'; // importing this gives u
 import { LocationComponent } from './location/location.component';
 import { FieldService } from './field.service';
 import { GameService } from './game.service';
-
+import { MY_VALS } from  './model';
 
 @NgModule({
-  declarations: [
+  declarations: [// declarations are for component so they can be used in other components and templates 
     AppComponent,
     RegisterComponent,
     ScheduleComponent,
@@ -30,7 +30,7 @@ import { GameService } from './game.service';
     LatestComponent, 
 	LocationComponent
   ],
-  imports: [
+  imports: [ 
     BrowserModule,
 	ReactiveFormsModule,
     FormsModule,
@@ -39,7 +39,7 @@ import { GameService } from './game.service';
 /* 	playerRouting, */
 	routing,
   ],
-  providers: [{provide:LocationStrategy, useClass:HashLocationStrategy},FieldService, GameService],
+  providers: [{provide:LocationStrategy, useClass:HashLocationStrategy},FieldService, GameService, MY_VALS],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

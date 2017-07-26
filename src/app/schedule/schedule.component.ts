@@ -4,6 +4,7 @@ import {FieldService} from '../field.service';
 import {GameService} from '../game.service';
 import {Field, Game} from '../model';
 
+
 @Component({
   selector: 'app-schedule',
   templateUrl: './schedule.component.html',

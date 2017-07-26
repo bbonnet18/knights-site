@@ -65,4 +65,8 @@ export class FieldAddresses{
 	
 }
 
+export const MYVAL:string = "my value for the string";
+
+export const MY_VALS:Array<any> = [{provide:MYVAL, useValue:MYVAL}];
+
 /* format for date with moment -  moment("2017-05-21 15:00").format("dddd, MMMM Do YYYY, h:mm a");*/
